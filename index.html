@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 01/12</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: aqua;
+            text-align: center;
+        }
+
+        #tut img {
+            width: 200px;
+            margin-top: 100px;
+
+        }
+
+        #tut img:hover {
+            transition: 1s linear;
+            transform: rotate3d(10, 5, 1, -360deg);
+        }
+    </style>
 </head>
+
 <body>
-    <div>
-        <img  src="img/01.jpg" alt="Mercedes-Benz">
-        <img  src="img/02.jpg" alt="Mercedes-Benz">
-        <img  src="img/03.jpg" alt="Mercedes-Benz">
-        <img  src="img/04.jpg" alt="Mercedes-Benz">
-        <img  src="img/05.jpg" alt="Mercedes-Benz">
+    <div id="tut">
+        <img src="img/01.jpg" alt="Mercedes-Benz">
+        <img src="img/02.jpg" alt="Mercedes-Benz">
+        <img src="img/03.jpg" alt="Mercedes-Benz">
+        <img src="img/04.jpg" alt="Mercedes-Benz">
+        <img src="img/05.jpg" alt="Mercedes-Benz">
     </div>
 </body>
+
 </html>
